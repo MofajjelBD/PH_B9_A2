@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Shared style  */
+:root {
+    --Dark-02: #424247;
+    --Primary-color: #FF5400;
+}
+
+.flex {
+    display: flex;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+button {
+    background: #FF5400;
+    font-weight: 700;
+    justify-content: center;
+    width: 174px;
+    color: #FFF;
+    padding: 16px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    margin-right: 24px;
+}
+
+/* header area style  */
+/* nav area style css  */
+nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+nav .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo_area {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo_area {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo_area .logo_text img {
+    width: 48px;
+    height: 56.008px;
+}
+
+nav .logo_area .logo_text h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+nav .logo_area .logo_text span {
+    color: var(--Primary-color);
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav .menu_area {
+    display: flex;
+    align-items: center;
+}
+
+nav .menu_area ul {
+    display: flex;
+}
+
+nav .menu_area ul li {
+    list-style: none;
+    margin-right: 44px;
+}
+
+nav .menu_area ul li:last-child {
+    margin-right: 0px;
+}
+
+nav .menu_area ul li a {
+    color: var(--Dark-02);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav .menu_area ul li a.active,
+nav .menu_area ul li a:hover {
+    color: var(--Primary-color);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav .menu_area ul li a:hover {
+    font-weight: 400;
+}
+
+/* banner area style  */
+.banner_area {
+    position: relative;
+    z-index: 1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 106px;
+    padding-top: 106px;
+    color: #ffffff;
+    font-family: Merriweather;
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    flex-direction: column;
+}
+
+.banner_area:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    opacity: 100%;
+    z-index: -1;
+    border-radius: 16px;
+}
+
+
+.banner_area h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.banner_area p {
+    max-width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.banner_area .time_travel {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+}
+
+.banner_area input,
+.banner_area select {
+    color: #FFF;
+    padding: 16px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    margin-right: 24px;
+}
+
+
+
+.banner_area input {
+    width: 142px;
+    background: #fff;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.banner_area select {
+    width: 174px;
+    background: #fff;
+    color: rgba(19, 19, 24, 0.50);
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.banner_area button:last-child {
+    margin-right: 0;
+}
+
+.banner_area button svg {
+    margin-right: 8px;
+}
+
+
+
+/* Popular area style  */
+
+.popular_area .flex {
+    justify-content: space-between;
+}
+
+.popular_text {
+    max-width: 577px;
+}
+
+.popular_area h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.popular_area p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.popular_area ul {
+    padding: 0 0px 0 24px;
+    margin-bottom: 24px;
+}
+
+.popular_area ul li {
+    margin-bottom: 16px;
+}
+
+.popular_area ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.popular_area ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular_area button {
+    margin-top: 8px;
+}
+
+
+/* distination area style  */
+
+.destination_area h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.destination_area p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 643px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.d-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.destination_area .img {
+    position: relative;
+}
+
+.destination_area .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+/* chose area style css  */
+.chose_area h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.chose_area p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 643px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.chose_area .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.chose_area .card {
+    max-width: 507px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.chose_area svg {
+    margin-bottom: 32px;
+}
+
+.chose_area h3 {
+    color: #131318;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.chose_area .card p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
