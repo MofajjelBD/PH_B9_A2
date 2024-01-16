@@ -367,31 +367,49 @@ nav .menu_area ul li a:hover {
 .chose_area .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    grid-gap: 10px;
+    justify-content: space-evenly;
+    grid-gap: 22px;
+}
+
+.chose_area .card:first-child {
+    grid-gap: 0px;
 }
 
 .chose_area .card {
     max-width: 507px;
     padding: 32px;
     border-radius: 16px;
+}
+
+.chose_area .card:nth-child(3n+1) {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
 
+.chose_area .card:nth-child(3n+2) {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.chose_area .card:nth-child(3n+3) {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
 .chose_area svg {
-    margin-bottom: 32px;
+    margin-bottom: 0px;
 }
 
 .chose_area h3 {
     color: #131318;
     margin-bottom: 16px;
-    text-align: center;
+    text-align: start;
     font-family: Mulish;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-top: 32px;
 
 }
 
@@ -402,4 +420,47 @@ nav .menu_area ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    text-align: start;
+    margin: 0;
+}
+
+/* deal_area style css  */
+
+.deal_area h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.deal_area p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 643px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.row_deal {
+    padding: 56px;
+    background: url("../Images/Group\ 39.png");
+}
+.row_deal:nth-child(2n+1) {
+    text-align: end;
+}
+.row_deal:nth-child(2n+2) {
+    text-align: start;
+}
+
+.book_card {
+    max-width: 579px;
 }
