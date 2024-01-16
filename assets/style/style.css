@@ -452,15 +452,339 @@ nav .menu_area ul li a:hover {
 
 .row_deal {
     padding: 56px;
-    background: url("../Images/Group\ 39.png");
+    margin-bottom: 24px;
+    border-radius: 16px;
+    display: flex;
 }
+
 .row_deal:nth-child(2n+1) {
-    text-align: end;
+    justify-content: end;
+    background: url('../Images/Group\ 39.png');
+    background-size: cover;
 }
+
 .row_deal:nth-child(2n+2) {
-    text-align: start;
+    justify-content: start;
+    background: url('../Images/Group\ 40.png');
+    background-size: cover;
 }
 
 .book_card {
-    max-width: 579px;
+    padding: 48px;
+}
+
+.book_card {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.time_location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.book_card svg {
+    margin-right: 8px;
+}
+
+.time {
+    align-items: center;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.max {
+    align-items: center;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.location {
+    align-items: center;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.book_card h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    text-align: start;
+}
+
+.book_card p {
+    color: #5A5A5D;
+    max-width: 452px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: start;
+    margin: unset;
+}
+
+.book_card h5 {
+    color: var(--Primary-color);
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.book_card button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 24px;
+    width: 150px;
+    padding: 13px;
+}
+
+.deal_area .all_deals {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.deal_area button.all_deal {
+    color: #FFF;
+    padding: 13px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    width: 210px;
+}
+
+/* perfect place start style  */
+.perfect_area .flex {
+    justify-content: space-between;
+}
+
+.perfect_area .popular_text {
+    width: calc(50% - 14px);
+}
+
+.perfect_area .popular_image {
+    width: calc(50% - 14px);
+}
+
+.perfect_area .popular_image img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+
+.perfect_area .popular_text h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.perfect_area .popular_text p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.perfect_area .popular_text ul {
+    padding: 0 0 0 24px;
+}
+
+.perfect_area .popular_text ul li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.perfect_area button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.perfect_area .popular_image {
+    width: calc(50% - 14px);
+}
+
+/* newsletter area style start  */
+
+.newsletter_area .flex {
+    justify-content: space-between;
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid var(--Primary-color);
+    padding: 39px;
+    max-width: 394px;
+}
+
+.newsletter h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.newsletter p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+
+}
+
+.newsletter hr {
+    background: rgba(19, 19, 24, 0.10);
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+
+}
+
+.newsletter input {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    margin-bottom: 16px;
+    width: calc(100% - 40px);
+
+}
+
+.newsletter button {
+    width: 100%;
+    margin-top: 8px;
+
+}
+
+.discount img {
+    width: 100%;
+}
+
+
+/* future area style  */
+.future_area h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.future_area hr {
+    border: none;
+    height: 2px;
+    background: var(--Dark-02);
+    max-width: 250px;
+}
+
+.future h5 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.futures.flex {
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.future {
+    justify-content: space-evenly;
+    max-width: 294px;
+    border-radius: 16px;
+    padding: 39px;
+    border: 1px solid var(--Primary-color);
+}
+
+.future:nth-child(3n+2) {
+    position: relative;
+    top: 80px;
+}
+
+.future:nth-child(3n+3) {
+    position: relative;
+    top: 160px;
+}
+.future_area p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
