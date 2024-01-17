@@ -766,20 +766,21 @@ nav .menu_area ul li a:hover {
 .future {
     justify-content: space-evenly;
     max-width: 294px;
+    min-height: 340px;
     border-radius: 16px;
     padding: 39px;
     border: 1px solid var(--Primary-color);
 }
 
-.future:nth-child(3n+2) {
-    position: relative;
-    top: 80px;
+.future_w:nth-child(3n+2) .future {
+    margin-top: 80px;
 }
 
-.future:nth-child(3n+3) {
-    position: relative;
-    top: 160px;
+.future_w:nth-child(3n+3) .future {
+    margin-top: 160px;
+
 }
+
 .future_area p {
     color: #5A5A5D;
     font-family: Mulish;
@@ -787,4 +788,82 @@ nav .menu_area ul li a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* footer area style start  */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+}
+
+.container.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .site_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+footer .site_name h2 {
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer .site_name h2 span {
+    color: var(--Primary-color);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer .site_name img {
+    margin-right: 16px;
+}
+
+footer p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 769px;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+footer svg {
+    margin: auto;
+}
+
+footer hr {
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    width: 872px;
+    margin: 50px auto;
+    text-align: center;
+    border: none;
+}
+
+footer p.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
 }
