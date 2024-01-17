@@ -719,10 +719,43 @@ nav .menu_area ul li a:hover {
 
 }
 
+.discount {
+    position: relative;
+}
+
 .newsletter button {
     width: 100%;
     margin-top: 8px;
 
+}
+
+.discount_card {
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    padding: 20px;
+    right: 10px;
+    bottom: 52px;
+}
+
+.discount_card p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discount_card h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .discount img {
@@ -797,7 +830,7 @@ footer {
     padding: 110px 0;
 }
 
-.container.flex {
+footer .container.flex {
     display: flex;
     justify-content: center;
     flex-direction: column;
