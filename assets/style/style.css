@@ -900,3 +900,335 @@ footer p.copyright {
     line-height: normal;
     margin: 0 auto;
 }
+
+
+
+
+
+/**************************
+     media css start here 
+ **************************/
+@media (max-width: 991.98px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    nav .logo_area .logo_text span,
+    nav .logo_area .logo_text h2 {
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    nav .logo_area .logo_text h2 {
+        margin-left: 10px;
+    }
+
+    .logo_area img {
+        height: 33.516px;
+    }
+
+    nav .menu_area ul li {
+        margin-right: 18px;
+    }
+
+    nav {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav .menu_area ul li a.active,
+    nav .menu_area ul li a,
+    nav .menu_area ul li a.active,
+    nav .menu_area ul li a:hover {
+        font-size: 14px;
+    }
+
+    /* banner are  */
+    .banner_area .time_travel {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .banner_area .time_travel input,
+    .banner_area .time_travel select {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .banner_area .time_travel input {
+        width: calc(100% - 32px);
+    }
+
+    .banner_area .time_travel select,
+    .banner_area .time_travel button {
+        width: 100%;
+    }
+
+
+    /* popular area responsive sty  */
+    .popular_area .flex {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .popular_image img {
+        width: 100%;
+    }
+
+    /* perfect area  */
+    .perfect_area .flex {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfect_area .popular_text {
+        width: 100%;
+    }
+
+    .perfect_area .popular_image {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .perfect_area .popular_text p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .perfect_area .popular_text ul li {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .perfect_area .popular_text h2 {
+        width: 80%;
+    }
+
+    .perfect_area button {
+        margin-top: 8px;
+    }
+
+    /* newsletter area  */
+    .newsletter_area .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discount {
+        margin-top: 16px;
+    }
+
+    .discount_card {
+        padding: 15px;
+        bottom: 34px;
+    }
+
+    .discount_card p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .discount_card h3 {
+        font-family: Mulish;
+        font-size: 21.138px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    /* future responsive  */
+    .futures.flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .future_w {
+        margin-top: 24px;
+    }
+
+    .future_area h2 {
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .future_area hr {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .future_w:nth-child(3n+2) .future {
+        margin-top: 0px;
+    }
+
+    .future_w:nth-child(3n+3) .future {
+        margin-top: 0px;
+
+    }
+
+    /* footer  */
+    footer hr {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .mb-100 {
+        margin-bottom: 24px;
+    }
+
+    nav .menu_area {
+        display: none;
+    }
+
+    /* banner area responsive  */
+    .banner_area h1 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner_area p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .banner_area .time_travel {
+        flex-direction: column;
+        width: calc(100% - 48px);
+    }
+
+    /* popular area  */
+    .popular_area h2 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .popular_area p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    /* chose area  */
+
+    .chose_area h2 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .chose_area p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .deal_area h2 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .perfect_area .popular_text h2 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 30px;
+    }
+
+    .future_area h2 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 30px;
+    }
+
+    /* footer  */
+
+    footer {
+        padding: 31px 0;
+    }
+
+    footer .site_name img {
+        margin-right: 10px;
+        height: 38px;
+    }
+
+    footer hr {
+        margin: 24px auto;
+    }
+
+    footer .site_name h2,
+    footer .site_name h2 span {
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    footer p {
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+}
